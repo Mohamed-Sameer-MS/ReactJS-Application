@@ -5,5 +5,5 @@ services:
     image: devops-app
     container_name: devops-container
     ports:
-      - "8080:80"
+      - "80:80"
     restart: always
